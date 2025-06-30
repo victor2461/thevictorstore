@@ -8,30 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 <!-- Add to your site's header -->
-<script>
-  window.vhomesLeads = {
-    track: function(email, source) {
-      // Google Analytics
-      gtag('event', 'lead_generated', {
-        'email': email,
-        'source': source
-      });
-      
-      // Facebook Pixel
-      fbq('track', 'Lead', {
-        content_name: source,
-        content_category: 'virtual_staging'
-      });
-      
-      // CRM Integration (HubSpot example)
-      _hsq.push(['identify', { email: email }]);
-      _hsq.push(['trackEvent', {
-        id: 'website_lead',
-        value: source
-      }]);
-    }
-  };
-</script>
+
     
     <style>
         /* Global Styles */

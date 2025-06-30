@@ -7,7 +7,6 @@
             <link rel="icon" href="THE V.png" type="image/THE V.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-<!-- Add to your site's header -->
 
     
     <style>
@@ -759,57 +758,6 @@
         }
     </style>
 </head>
-
-
-    <!DOCTYPE html>
-    <html>
-    <head>
-      <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; }
-        .header { background: #2a4b8d; padding: 20px; color: white; }
-        .content { padding: 20px; }
-        .button { 
-          display: inline-block; 
-          padding: 12px 24px; 
-          background: #e6b325; 
-          color: white; 
-          text-decoration: none; 
-          border-radius: 4px; 
-          margin: 15px 0;
-        }
-      </style>
-    </head>
-    <body>
-      <div class="header">
-        <h1>VHomes Virtual Staging</h1>
-      </div>
-      <div class="content">
-        <h2>Thank you for your interest!</h2>
-        <p>We're preparing your ${getIntentText(intent)}.</p>
-        <p><strong>Next steps:</strong></p>
-        <ol>
-          <li>Our design team will contact you within 2 hours</li>
-          <li>You'll receive 3 custom staging concepts</li>
-          <li>Provide feedback for revisions</li>
-        </ol>
-        <a href="https://vhomes.com/schedule" class="button">Schedule Consultation</a>
-      </div>
-    </body>
-    </html>
-  `;
-}
-
-function getIntentText(intent) {
-  const intents = {
-    residential: 'residential staging samples',
-    commercial: 'commercial space designs',
-    realtor: 'realtor resource kit',
-    developer: 'developer portfolio package'
-  };
-  return intents[intent] || 'virtual staging preview';
-}
-
-app.listen(3000, () => console.log('Server running on port 3000'));
 
     
 <body>
